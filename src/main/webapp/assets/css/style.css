@@ -1,0 +1,309 @@
+body{
+	min-height: 100vh;
+	margin: 0;
+	font-family: sans-serif;
+	background-color: #e0f2f1;
+	box-sizing: border-box;
+}
+
+.anonymous{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card{
+	padding: 1rem 2rem 2rem 2rem;
+	border-radius: 0.4rem;
+	box-shadow: 2px 2px 3px #003300;
+	background-color: white;
+}
+
+.w-480{
+	width: 480px;
+}
+
+.icon{
+	display: inline-block;
+	width: 1.2rem;
+}
+
+.icon-btn{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+}
+
+.form-title{
+	font-size: 1.2em;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+}
+
+input, select{
+	margin-top: 5px;
+	margin-bottom: 20px;
+	background-color: transparent;
+	padding: 0.4rem;
+	border-style: none;
+	border-bottom: 1px solid #43a047;
+	font-size: 0.8rem;
+}
+
+label{
+	color: teal;
+	font-size: 0.9rem;
+}
+
+input:focus, select:focus{
+	outline: none;
+}
+
+.btn{
+	padding: 0.5rem 2rem;
+	color: white;
+	background-color: #43a047;
+	border-radius: 0.4rem;
+	border: 1px solid #43a047;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	text-decoration: none;
+}
+
+.btn:hover{
+	background-color: #66bb6a;
+	border: 1px solid #66bb6a;
+	cursor: pointer;
+}
+
+.employee{
+	display: grid;
+	grid-template-rows: 60px 1fr;
+	grid-template-columns: 300px 1fr;
+	min-height: 100vh;
+	grid-gap: 0.6rem;
+}
+
+.sidebar{
+	margin: 0 0 0.6rem 0.6rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1.6rem;
+}
+
+.user-name{
+	text-transform: uppercase;
+	font-size: 1.4rem;
+	font-weight: 700;
+	color: #003d00;
+}
+
+.profile-image{
+	width: 240px;
+	margin-bottom: 1rem;
+}
+
+.user-role{
+	font-weight: 700;
+	color: #2e7d32;
+	text-transform: uppercase;
+}
+
+.user-actions{
+	display: flex;
+	flex-direction: column;
+	margin: 1rem 0;
+	align-self: stretch;
+	gap: 1rem;
+}
+
+.user-actions> a{
+	text-align: center;
+	padding: 0.8rem;
+}
+
+.user-actions> a:hover{
+	background-color: #43a047;
+}
+
+.employee> section{
+	margin: 0 0.6rem 0.6rem 0;
+	padding: 1.6rem;
+}
+
+.view-title{
+	font-size: 1.4rem;
+	font-weight: 700;
+	color: #005005;
+	margin-bottom: 1.4rem;
+}
+
+.container{
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.6rem;
+	grid-column: 1 / span 2;
+}
+
+.container> nav{
+	display: flex;
+}
+
+.shadow{
+	box-shadow: 1px 1px 3px gray;
+}
+
+.rounded{
+	border-radius: 0.5rem;
+}
+
+.brand-logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 800;
+	font-size: 1.4rem;
+	color: #005005;
+	gap: 5px;
+}
+
+.container> nav> a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	color: #005005;
+	padding: 0 1rem;
+	gap: 5px;
+}
+
+.container> nav> a.active{
+	font-weight: 700;
+	color: black;
+}
+
+.container> nav> a:hover {
+	background-color: #009688;
+	color: white;
+}
+
+.box{
+	background-color: white;
+}
+
+.form-inline{
+	display: flex;
+	margin-bottom: 1rem;
+	align-items: stretch;
+}
+
+.form-group{
+	margin-right: 0.6rem;
+}
+
+.btn2{
+	text-decoration: none;
+	padding: 0.5rem 2rem;
+	border-radius: 0.4rem;
+	border: 1px solid #43a047;
+	text-transform: uppercase;
+	color: #43a047;
+	font-size: 0.8rem;
+}
+
+.btn2:hover {
+	background-color: #43a047;
+	color: white;
+	cursor: pointer;
+}
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+td{
+	border-bottom: 1px solid #43a047;
+}
+
+th{
+	border-bottom: 2px solid #43a047;
+}
+
+td, th{
+	padding: 0.6rem;
+	text-align: left;
+	font-size: 0.8rem;
+}
+
+thead tr{
+	background-color: #43a047;
+	color: white;
+}
+
+tbody tr:nth-child(even){
+	background-color: #e8ffe9;
+}
+
+tbody tr:hover {
+	background-color: #81c784;
+	color: white;
+}
+
+.right{
+	text-align: right;
+}
+
+.mr-13{
+	margin-right: 13px;
+}
+
+.mr-100{
+	margin-right: 100px;	
+}
+
+.w-150{
+	width: 150px;
+}
+
+.w-300{
+	width: 300px;
+}
+
+.w-200{
+	width: 220px;
+}
+
+.row{
+	display: flex;
+}
+
+.balance-summary{
+	display: grid;
+	grid-template-columns: 80px 1fr 80px 1fr 80px 1fr;
+	align-items: center;
+}
+
+.actions{
+	padding-top: 1rem;
+}
+
+.employee-icon{
+	display: flex;
+	flex-direction: row;
+	gap: 5px;
+}
+
+.message{
+	color: red;
+}
